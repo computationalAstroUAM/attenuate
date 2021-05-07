@@ -78,9 +78,8 @@ leg = plt.legend(loc=0)
 
 errorbar(ox, oy, Merror, fmt='o', color='grey', capsize=2)
 
-xlabel("$log_{10}$(L[OII][erg $s^{-1}$ $h^{-2}$]])",size=15)
-ylabel("$log_{10}$($\Phi$[$Mpc^{-3}$ $dex^{-1}$ $h^{-3}$])",size=15)
+xlabel("log$_{10}$(L[OII][erg s$^{-1}$ h$^{-2}$]])",size=15)
+ylabel("log$_{10}$($\Phi$[Mpc$^{-3}$ dex$^{-1}$ h$^{-3}$])",size=15)
 xlim(40.7,43.5)
-
 
 
